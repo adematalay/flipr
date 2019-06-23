@@ -33,6 +33,8 @@
 		EA8219D722BEE37700E6ED24 /* FLURLRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219D622BEE37700E6ED24 /* FLURLRequestTests.m */; };
 		EA8219D922BEE61F00E6ED24 /* FLDataServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219D822BEE61F00E6ED24 /* FLDataServiceTests.m */; };
 		EA8219DB22BF5E2B00E6ED24 /* FLMediaServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219DA22BF5E2B00E6ED24 /* FLMediaServiceTests.m */; };
+		EA8219DD22BFFC0600E6ED24 /* FLPhotoListDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219DC22BFFC0600E6ED24 /* FLPhotoListDataSourceTests.m */; };
+		EA8219DF22C004B300E6ED24 /* FLPhotoListViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219DE22C004B300E6ED24 /* FLPhotoListViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,8 @@
 		EA8219D622BEE37700E6ED24 /* FLURLRequestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLURLRequestTests.m; sourceTree = "<group>"; };
 		EA8219D822BEE61F00E6ED24 /* FLDataServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLDataServiceTests.m; sourceTree = "<group>"; };
 		EA8219DA22BF5E2B00E6ED24 /* FLMediaServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLMediaServiceTests.m; sourceTree = "<group>"; };
+		EA8219DC22BFFC0600E6ED24 /* FLPhotoListDataSourceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPhotoListDataSourceTests.m; sourceTree = "<group>"; };
+		EA8219DE22C004B300E6ED24 /* FLPhotoListViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPhotoListViewControllerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +167,8 @@
 				EA8219D622BEE37700E6ED24 /* FLURLRequestTests.m */,
 				EA8219D822BEE61F00E6ED24 /* FLDataServiceTests.m */,
 				EA8219DA22BF5E2B00E6ED24 /* FLMediaServiceTests.m */,
+				EA8219DC22BFFC0600E6ED24 /* FLPhotoListDataSourceTests.m */,
+				EA8219DE22C004B300E6ED24 /* FLPhotoListViewControllerTests.m */,
 			);
 			path = FliprTests;
 			sourceTree = "<group>";
@@ -431,6 +437,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA8219CC22BEB0C300E6ED24 /* FLCoreIOTests.m in Sources */,
+				EA8219DD22BFFC0600E6ED24 /* FLPhotoListDataSourceTests.m in Sources */,
+				EA8219DF22C004B300E6ED24 /* FLPhotoListViewControllerTests.m in Sources */,
 				EA8219D922BEE61F00E6ED24 /* FLDataServiceTests.m in Sources */,
 				EA8219DB22BF5E2B00E6ED24 /* FLMediaServiceTests.m in Sources */,
 				EA8219B222BD7D4600E6ED24 /* FLCoreNetworkTests.m in Sources */,
