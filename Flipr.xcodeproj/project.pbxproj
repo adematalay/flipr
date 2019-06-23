@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA82195222BC33A500E6ED24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA82195122BC33A500E6ED24 /* AppDelegate.m */; };
+		EA82195A22BC33A800E6ED24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA82195922BC33A800E6ED24 /* Assets.xcassets */; };
+		EA82195D22BC33A800E6ED24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA82195B22BC33A800E6ED24 /* LaunchScreen.storyboard */; };
+		EA82196022BC33A800E6ED24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA82195F22BC33A800E6ED24 /* main.m */; };
+		EA82197822BC349C00E6ED24 /* FLCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA82197722BC349C00E6ED24 /* FLCoordinator.m */; };
+		EA82198222BC36FB00E6ED24 /* FLDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA82198122BC36FB00E6ED24 /* FLDataModel.m */; };
+		EA82198A22BD601900E6ED24 /* FLCoreNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = EA82198922BD601900E6ED24 /* FLCoreNetwork.m */; };
+		EA82198F22BD683B00E6ED24 /* FLCoreIO.m in Sources */ = {isa = PBXBuildFile; fileRef = EA82198E22BD683B00E6ED24 /* FLCoreIO.m */; };
+		EA82199722BD6F6900E6ED24 /* FLDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = EA82199622BD6F6900E6ED24 /* FLDataService.m */; };
+		EA82199A22BD6F8E00E6ED24 /* FLMediaService.m in Sources */ = {isa = PBXBuildFile; fileRef = EA82199922BD6F8E00E6ED24 /* FLMediaService.m */; };
+		EA82199E22BD6FF700E6ED24 /* FLPhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA82199D22BD6FF700E6ED24 /* FLPhotoListViewController.m */; };
+		EA8219A122BD701100E6ED24 /* FLPhotoListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219A022BD701100E6ED24 /* FLPhotoListDataSource.m */; };
+		EA8219A522BD71BD00E6ED24 /* FLAbstractService.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219A422BD71BD00E6ED24 /* FLAbstractService.m */; };
+		EA8219AA22BD7AD100E6ED24 /* FLTask.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219A922BD7AD100E6ED24 /* FLTask.m */; };
+		EA8219B022BD7BFA00E6ED24 /* FLURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219AF22BD7BFA00E6ED24 /* FLURLRequest.m */; };
+		EA8219B222BD7D4600E6ED24 /* FLCoreNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219B122BD7D4600E6ED24 /* FLCoreNetworkTests.m */; };
+		EA8219B522BD80EA00E6ED24 /* FLFlickrRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219B422BD80EA00E6ED24 /* FLFlickrRequest.m */; };
+		EA8219B922BD87F800E6ED24 /* FLResultsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219B822BD87F800E6ED24 /* FLResultsModel.m */; };
+		EA8219BE22BD8D3400E6ED24 /* FLDataModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219BD22BD8D3400E6ED24 /* FLDataModelTests.m */; };
+		EA8219C422BDA0E700E6ED24 /* FLPhotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219C322BDA0E700E6ED24 /* FLPhotoViewCell.m */; };
+		EA8219C722BDA4AC00E6ED24 /* FLFlickrImageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219C622BDA4AC00E6ED24 /* FLFlickrImageRequest.m */; };
+		EA8219CC22BEB0C300E6ED24 /* FLCoreIOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219CB22BEB0C300E6ED24 /* FLCoreIOTests.m */; };
+		EA8219CF22BEB59E00E6ED24 /* FLPhotoListFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219CE22BEB59E00E6ED24 /* FLPhotoListFlowLayout.m */; };
+		EA8219D722BEE37700E6ED24 /* FLURLRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219D622BEE37700E6ED24 /* FLURLRequestTests.m */; };
+		EA8219D922BEE61F00E6ED24 /* FLDataServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219D822BEE61F00E6ED24 /* FLDataServiceTests.m */; };
+		EA8219DB22BF5E2B00E6ED24 /* FLMediaServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8219DA22BF5E2B00E6ED24 /* FLMediaServiceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA82196622BC33A800E6ED24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA82194522BC33A500E6ED24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA82194C22BC33A500E6ED24;
+			remoteInfo = Flipr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA82194D22BC33A500E6ED24 /* Flipr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flipr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA82195022BC33A500E6ED24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA82195122BC33A500E6ED24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA82195922BC33A800E6ED24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA82195C22BC33A800E6ED24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA82195E22BC33A800E6ED24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA82195F22BC33A800E6ED24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA82196522BC33A800E6ED24 /* FliprTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FliprTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA82196B22BC33A800E6ED24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA82197622BC349C00E6ED24 /* FLCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLCoordinator.h; sourceTree = "<group>"; };
+		EA82197722BC349C00E6ED24 /* FLCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCoordinator.m; sourceTree = "<group>"; };
+		EA82197F22BC368700E6ED24 /* FLCancellable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLCancellable.h; sourceTree = "<group>"; };
+		EA82198022BC36FB00E6ED24 /* FLDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLDataModel.h; sourceTree = "<group>"; };
+		EA82198122BC36FB00E6ED24 /* FLDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLDataModel.m; sourceTree = "<group>"; };
+		EA82198822BD601900E6ED24 /* FLCoreNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLCoreNetwork.h; sourceTree = "<group>"; };
+		EA82198922BD601900E6ED24 /* FLCoreNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCoreNetwork.m; sourceTree = "<group>"; };
+		EA82198D22BD683B00E6ED24 /* FLCoreIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLCoreIO.h; sourceTree = "<group>"; };
+		EA82198E22BD683B00E6ED24 /* FLCoreIO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCoreIO.m; sourceTree = "<group>"; };
+		EA82199222BD6D7100E6ED24 /* FLDataGathering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLDataGathering.h; sourceTree = "<group>"; };
+		EA82199522BD6F6900E6ED24 /* FLDataService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLDataService.h; sourceTree = "<group>"; };
+		EA82199622BD6F6900E6ED24 /* FLDataService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLDataService.m; sourceTree = "<group>"; };
+		EA82199822BD6F8E00E6ED24 /* FLMediaService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLMediaService.h; sourceTree = "<group>"; };
+		EA82199922BD6F8E00E6ED24 /* FLMediaService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLMediaService.m; sourceTree = "<group>"; };
+		EA82199C22BD6FF700E6ED24 /* FLPhotoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPhotoListViewController.h; sourceTree = "<group>"; };
+		EA82199D22BD6FF700E6ED24 /* FLPhotoListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPhotoListViewController.m; sourceTree = "<group>"; };
+		EA82199F22BD701100E6ED24 /* FLPhotoListDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPhotoListDataSource.h; sourceTree = "<group>"; };
+		EA8219A022BD701100E6ED24 /* FLPhotoListDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPhotoListDataSource.m; sourceTree = "<group>"; };
+		EA8219A322BD71BD00E6ED24 /* FLAbstractService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAbstractService.h; sourceTree = "<group>"; };
+		EA8219A422BD71BD00E6ED24 /* FLAbstractService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAbstractService.m; sourceTree = "<group>"; };
+		EA8219A622BD789200E6ED24 /* FLNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLNetworking.h; sourceTree = "<group>"; };
+		EA8219A722BD793B00E6ED24 /* FLPersisting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPersisting.h; sourceTree = "<group>"; };
+		EA8219A822BD7AD100E6ED24 /* FLTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLTask.h; sourceTree = "<group>"; };
+		EA8219A922BD7AD100E6ED24 /* FLTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLTask.m; sourceTree = "<group>"; };
+		EA8219AB22BD7B2500E6ED24 /* FLTask+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLTask+Private.h"; sourceTree = "<group>"; };
+		EA8219AE22BD7BFA00E6ED24 /* FLURLRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLURLRequest.h; sourceTree = "<group>"; };
+		EA8219AF22BD7BFA00E6ED24 /* FLURLRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLURLRequest.m; sourceTree = "<group>"; };
+		EA8219B122BD7D4600E6ED24 /* FLCoreNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCoreNetworkTests.m; sourceTree = "<group>"; };
+		EA8219B322BD80EA00E6ED24 /* FLFlickrRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLFlickrRequest.h; sourceTree = "<group>"; };
+		EA8219B422BD80EA00E6ED24 /* FLFlickrRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLFlickrRequest.m; sourceTree = "<group>"; };
+		EA8219B722BD87F800E6ED24 /* FLResultsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLResultsModel.h; sourceTree = "<group>"; };
+		EA8219B822BD87F800E6ED24 /* FLResultsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLResultsModel.m; sourceTree = "<group>"; };
+		EA8219BA22BD8A6100E6ED24 /* FLDataModel+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLDataModel+Private.h"; sourceTree = "<group>"; };
+		EA8219BD22BD8D3400E6ED24 /* FLDataModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLDataModelTests.m; sourceTree = "<group>"; };
+		EA8219C222BDA0E700E6ED24 /* FLPhotoViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPhotoViewCell.h; sourceTree = "<group>"; };
+		EA8219C322BDA0E700E6ED24 /* FLPhotoViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPhotoViewCell.m; sourceTree = "<group>"; };
+		EA8219C522BDA4AC00E6ED24 /* FLFlickrImageRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLFlickrImageRequest.h; sourceTree = "<group>"; };
+		EA8219C622BDA4AC00E6ED24 /* FLFlickrImageRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLFlickrImageRequest.m; sourceTree = "<group>"; };
+		EA8219CB22BEB0C300E6ED24 /* FLCoreIOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCoreIOTests.m; sourceTree = "<group>"; };
+		EA8219CD22BEB59E00E6ED24 /* FLPhotoListFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPhotoListFlowLayout.h; sourceTree = "<group>"; };
+		EA8219CE22BEB59E00E6ED24 /* FLPhotoListFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPhotoListFlowLayout.m; sourceTree = "<group>"; };
+		EA8219D622BEE37700E6ED24 /* FLURLRequestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLURLRequestTests.m; sourceTree = "<group>"; };
+		EA8219D822BEE61F00E6ED24 /* FLDataServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLDataServiceTests.m; sourceTree = "<group>"; };
+		EA8219DA22BF5E2B00E6ED24 /* FLMediaServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLMediaServiceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA82194A22BC33A500E6ED24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA82196222BC33A800E6ED24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA82194422BC33A500E6ED24 = {
+			isa = PBXGroup;
+			children = (
+				EA82194F22BC33A500E6ED24 /* Flipr */,
+				EA82196822BC33A800E6ED24 /* FliprTests */,
+				EA82194E22BC33A500E6ED24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA82194E22BC33A500E6ED24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA82194D22BC33A500E6ED24 /* Flipr.app */,
+				EA82196522BC33A800E6ED24 /* FliprTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA82194F22BC33A500E6ED24 /* Flipr */ = {
+			isa = PBXGroup;
+			children = (
+				EA82197B22BC35FC00E6ED24 /* Utils */,
+				EA82197422BC346F00E6ED24 /* App */,
+				EA82197522BC347900E6ED24 /* PresentationLayer */,
+				EA82197922BC35DD00E6ED24 /* ServiceLayer */,
+				EA82197A22BC35F100E6ED24 /* CoreLayer */,
+				EA82195922BC33A800E6ED24 /* Assets.xcassets */,
+				EA82195B22BC33A800E6ED24 /* LaunchScreen.storyboard */,
+				EA82195E22BC33A800E6ED24 /* Info.plist */,
+				EA82195F22BC33A800E6ED24 /* main.m */,
+			);
+			path = Flipr;
+			sourceTree = "<group>";
+		};
+		EA82196822BC33A800E6ED24 /* FliprTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA82196B22BC33A800E6ED24 /* Info.plist */,
+				EA8219B122BD7D4600E6ED24 /* FLCoreNetworkTests.m */,
+				EA8219BD22BD8D3400E6ED24 /* FLDataModelTests.m */,
+				EA8219CB22BEB0C300E6ED24 /* FLCoreIOTests.m */,
+				EA8219D622BEE37700E6ED24 /* FLURLRequestTests.m */,
+				EA8219D822BEE61F00E6ED24 /* FLDataServiceTests.m */,
+				EA8219DA22BF5E2B00E6ED24 /* FLMediaServiceTests.m */,
+			);
+			path = FliprTests;
+			sourceTree = "<group>";
+		};
+		EA82197422BC346F00E6ED24 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EA82195022BC33A500E6ED24 /* AppDelegate.h */,
+				EA82195122BC33A500E6ED24 /* AppDelegate.m */,
+				EA82197622BC349C00E6ED24 /* FLCoordinator.h */,
+				EA82197722BC349C00E6ED24 /* FLCoordinator.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EA82197522BC347900E6ED24 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EA82199B22BD6FC300E6ED24 /* PhotoViewer */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		EA82197922BC35DD00E6ED24 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EA8219A222BD71A300E6ED24 /* AbstractService */,
+				EA82199122BD695000E6ED24 /* MediaService */,
+				EA82199022BD694800E6ED24 /* DataService */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		EA82197A22BC35F100E6ED24 /* CoreLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EA82198C22BD682800E6ED24 /* Persisting */,
+				EA82198322BD5FC400E6ED24 /* Networking */,
+			);
+			path = CoreLayer;
+			sourceTree = "<group>";
+		};
+		EA82197B22BC35FC00E6ED24 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EA82197E22BC367100E6ED24 /* Protocols */,
+				EA82197D22BC366C00E6ED24 /* Models */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EA82197D22BC366C00E6ED24 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA82198022BC36FB00E6ED24 /* FLDataModel.h */,
+				EA82198122BC36FB00E6ED24 /* FLDataModel.m */,
+				EA8219B722BD87F800E6ED24 /* FLResultsModel.h */,
+				EA8219B822BD87F800E6ED24 /* FLResultsModel.m */,
+				EA8219BA22BD8A6100E6ED24 /* FLDataModel+Private.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA82197E22BC367100E6ED24 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EA82197F22BC368700E6ED24 /* FLCancellable.h */,
+				EA82199222BD6D7100E6ED24 /* FLDataGathering.h */,
+				EA8219A622BD789200E6ED24 /* FLNetworking.h */,
+				EA8219A722BD793B00E6ED24 /* FLPersisting.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EA82198322BD5FC400E6ED24 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EA82198822BD601900E6ED24 /* FLCoreNetwork.h */,
+				EA82198922BD601900E6ED24 /* FLCoreNetwork.m */,
+				EA8219A822BD7AD100E6ED24 /* FLTask.h */,
+				EA8219A922BD7AD100E6ED24 /* FLTask.m */,
+				EA8219AB22BD7B2500E6ED24 /* FLTask+Private.h */,
+				EA8219AE22BD7BFA00E6ED24 /* FLURLRequest.h */,
+				EA8219AF22BD7BFA00E6ED24 /* FLURLRequest.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EA82198C22BD682800E6ED24 /* Persisting */ = {
+			isa = PBXGroup;
+			children = (
+				EA82198D22BD683B00E6ED24 /* FLCoreIO.h */,
+				EA82198E22BD683B00E6ED24 /* FLCoreIO.m */,
+			);
+			path = Persisting;
+			sourceTree = "<group>";
+		};
+		EA82199022BD694800E6ED24 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				EA82199522BD6F6900E6ED24 /* FLDataService.h */,
+				EA82199622BD6F6900E6ED24 /* FLDataService.m */,
+				EA8219B322BD80EA00E6ED24 /* FLFlickrRequest.h */,
+				EA8219B422BD80EA00E6ED24 /* FLFlickrRequest.m */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		EA82199122BD695000E6ED24 /* MediaService */ = {
+			isa = PBXGroup;
+			children = (
+				EA82199822BD6F8E00E6ED24 /* FLMediaService.h */,
+				EA82199922BD6F8E00E6ED24 /* FLMediaService.m */,
+				EA8219C522BDA4AC00E6ED24 /* FLFlickrImageRequest.h */,
+				EA8219C622BDA4AC00E6ED24 /* FLFlickrImageRequest.m */,
+			);
+			path = MediaService;
+			sourceTree = "<group>";
+		};
+		EA82199B22BD6FC300E6ED24 /* PhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				EA82199C22BD6FF700E6ED24 /* FLPhotoListViewController.h */,
+				EA82199D22BD6FF700E6ED24 /* FLPhotoListViewController.m */,
+				EA82199F22BD701100E6ED24 /* FLPhotoListDataSource.h */,
+				EA8219A022BD701100E6ED24 /* FLPhotoListDataSource.m */,
+				EA8219C222BDA0E700E6ED24 /* FLPhotoViewCell.h */,
+				EA8219C322BDA0E700E6ED24 /* FLPhotoViewCell.m */,
+				EA8219CD22BEB59E00E6ED24 /* FLPhotoListFlowLayout.h */,
+				EA8219CE22BEB59E00E6ED24 /* FLPhotoListFlowLayout.m */,
+			);
+			path = PhotoViewer;
+			sourceTree = "<group>";
+		};
+		EA8219A222BD71A300E6ED24 /* AbstractService */ = {
+			isa = PBXGroup;
+			children = (
+				EA8219A322BD71BD00E6ED24 /* FLAbstractService.h */,
+				EA8219A422BD71BD00E6ED24 /* FLAbstractService.m */,
+			);
+			path = AbstractService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA82194C22BC33A500E6ED24 /* Flipr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA82196E22BC33A800E6ED24 /* Build configuration list for PBXNativeTarget "Flipr" */;
+			buildPhases = (
+				EA82194922BC33A500E6ED24 /* Sources */,
+				EA82194A22BC33A500E6ED24 /* Frameworks */,
+				EA82194B22BC33A500E6ED24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flipr;
+			productName = Flipr;
+			productReference = EA82194D22BC33A500E6ED24 /* Flipr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA82196422BC33A800E6ED24 /* FliprTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA82197122BC33A800E6ED24 /* Build configuration list for PBXNativeTarget "FliprTests" */;
+			buildPhases = (
+				EA82196122BC33A800E6ED24 /* Sources */,
+				EA82196222BC33A800E6ED24 /* Frameworks */,
+				EA82196322BC33A800E6ED24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA82196722BC33A800E6ED24 /* PBXTargetDependency */,
+			);
+			name = FliprTests;
+			productName = FliprTests;
+			productReference = EA82196522BC33A800E6ED24 /* FliprTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA82194522BC33A500E6ED24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = AAtalay;
+				TargetAttributes = {
+					EA82194C22BC33A500E6ED24 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					EA82196422BC33A800E6ED24 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EA82194C22BC33A500E6ED24;
+					};
+				};
+			};
+			buildConfigurationList = EA82194822BC33A500E6ED24 /* Build configuration list for PBXProject "Flipr" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA82194422BC33A500E6ED24;
+			productRefGroup = EA82194E22BC33A500E6ED24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA82194C22BC33A500E6ED24 /* Flipr */,
+				EA82196422BC33A800E6ED24 /* FliprTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA82194B22BC33A500E6ED24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA82195D22BC33A800E6ED24 /* LaunchScreen.storyboard in Resources */,
+				EA82195A22BC33A800E6ED24 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA82196322BC33A800E6ED24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA82194922BC33A500E6ED24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA82199E22BD6FF700E6ED24 /* FLPhotoListViewController.m in Sources */,
+				EA8219B922BD87F800E6ED24 /* FLResultsModel.m in Sources */,
+				EA82198F22BD683B00E6ED24 /* FLCoreIO.m in Sources */,
+				EA8219C422BDA0E700E6ED24 /* FLPhotoViewCell.m in Sources */,
+				EA82197822BC349C00E6ED24 /* FLCoordinator.m in Sources */,
+				EA8219C722BDA4AC00E6ED24 /* FLFlickrImageRequest.m in Sources */,
+				EA82199722BD6F6900E6ED24 /* FLDataService.m in Sources */,
+				EA8219B522BD80EA00E6ED24 /* FLFlickrRequest.m in Sources */,
+				EA8219AA22BD7AD100E6ED24 /* FLTask.m in Sources */,
+				EA82198222BC36FB00E6ED24 /* FLDataModel.m in Sources */,
+				EA8219CF22BEB59E00E6ED24 /* FLPhotoListFlowLayout.m in Sources */,
+				EA82198A22BD601900E6ED24 /* FLCoreNetwork.m in Sources */,
+				EA82196022BC33A800E6ED24 /* main.m in Sources */,
+				EA8219B022BD7BFA00E6ED24 /* FLURLRequest.m in Sources */,
+				EA8219A522BD71BD00E6ED24 /* FLAbstractService.m in Sources */,
+				EA82199A22BD6F8E00E6ED24 /* FLMediaService.m in Sources */,
+				EA82195222BC33A500E6ED24 /* AppDelegate.m in Sources */,
+				EA8219A122BD701100E6ED24 /* FLPhotoListDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA82196122BC33A800E6ED24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8219CC22BEB0C300E6ED24 /* FLCoreIOTests.m in Sources */,
+				EA8219D922BEE61F00E6ED24 /* FLDataServiceTests.m in Sources */,
+				EA8219DB22BF5E2B00E6ED24 /* FLMediaServiceTests.m in Sources */,
+				EA8219B222BD7D4600E6ED24 /* FLCoreNetworkTests.m in Sources */,
+				EA8219D722BEE37700E6ED24 /* FLURLRequestTests.m in Sources */,
+				EA8219BE22BD8D3400E6ED24 /* FLDataModelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA82196722BC33A800E6ED24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA82194C22BC33A500E6ED24 /* Flipr */;
+			targetProxy = EA82196622BC33A800E6ED24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA82195B22BC33A800E6ED24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA82195C22BC33A800E6ED24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA82196C22BC33A800E6ED24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA82196D22BC33A800E6ED24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA82196F22BC33A800E6ED24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V7VYEZQ95;
+				INFOPLIST_FILE = Flipr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.free.Flipr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EA82197022BC33A800E6ED24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V7VYEZQ95;
+				INFOPLIST_FILE = Flipr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.free.Flipr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EA82197222BC33A800E6ED24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V7VYEZQ95;
+				INFOPLIST_FILE = FliprTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.free.FliprTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flipr.app/Flipr";
+			};
+			name = Debug;
+		};
+		EA82197322BC33A800E6ED24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V7VYEZQ95;
+				INFOPLIST_FILE = FliprTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.free.FliprTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flipr.app/Flipr";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA82194822BC33A500E6ED24 /* Build configuration list for PBXProject "Flipr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA82196C22BC33A800E6ED24 /* Debug */,
+				EA82196D22BC33A800E6ED24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA82196E22BC33A800E6ED24 /* Build configuration list for PBXNativeTarget "Flipr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA82196F22BC33A800E6ED24 /* Debug */,
+				EA82197022BC33A800E6ED24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA82197122BC33A800E6ED24 /* Build configuration list for PBXNativeTarget "FliprTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA82197222BC33A800E6ED24 /* Debug */,
+				EA82197322BC33A800E6ED24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA82194522BC33A500E6ED24 /* Project object */;
+}
